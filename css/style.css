@@ -1,0 +1,271 @@
+.home-section{
+    height: 90vh;
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6), rgba(214, 46, 51 , 0.6)), url(../Img/events-heavenly-header.jpg);
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sideBar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    background-color: #111;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+}
+.sideBar a:hover{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+    font-size: 30px;
+    color: #a21111;
+}
+
+.sideBar .close{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.sideBar .close:hover{
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 30px;
+    color: #a21111;
+    cursor: pointer;
+}
+
+.content{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    padding: 15px;
+}
+.content h2{
+    font-size: 40px;
+    margin-top: 220px;
+    text-align: center;
+}
+.content p{
+    text-align: center;
+}
+#open{
+    cursor: pointer;
+}
+
+.singers{
+    width: 50%;
+}
+.singers h3{
+    background-color: #e68285;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0%;
+}
+.singers p{
+    background-color: #ccc;
+    display: none;
+}
+.singers .singer1Info{
+    display: block;
+}
+
+.singer{
+    border-top: 1px solid black ;
+    border-left: 1px solid black ;
+    border-right : 1px solid black ;
+}
+#singer-4{
+    border-bottom: 1px solid black ;
+}
+
+.counter{
+    background-image: linear-gradient(rgba(214, 46, 51 , 0.6), rgba(214, 46, 51 , 0.6)), url(../Img/invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.count-box{
+    border: 1px solid white;
+    text-align: center;
+}
+
+.social a{
+    text-decoration: none;
+    color: #999;
+    font-size: 25px;
+    margin-right: 6px;
+}
+.social a:hover svg{
+    color: white;
+    background-color: #a21111;
+}
+.social svg{
+    border: 1px solid #999;
+    width: 25px;
+    height: 25px;
+    padding: 6px;
+}
+
+.form-control{
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+.form-button{
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    background-color: #a21111;
+    padding: 10px 20px;
+    color: white;
+}
+
+.form-button:hover{
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+    background-color: #a21111;
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.loading {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #a211118a;
+    z-index: 66456456489;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.sk-cube-grid {
+    width: 80px;
+    height: 80px;
+    
+}
+
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #fff;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
